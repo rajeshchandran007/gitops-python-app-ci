@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("rajeshchandran007/python-flask-app-demo")
+       app = docker.build("rajeshchandran007/test")
     }
 
     stage('Test image') {
